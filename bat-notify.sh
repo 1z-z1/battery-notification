@@ -1,24 +1,16 @@
 #!/bin/bash
 # Battery Notification Script
 
-# Go and get current battery capacity percent and save to the varible BatteryCapacity.
-BatteryCapacity=$(cat /sys/class/power_supply/BAT0/capacity)
+while true  
+do
 
-# Set what battery capacity percent to trigger "$(notify-send "...")".
+BatteryCapacity=`cat /sys/class/power_supply/BAT0/capacity`
 LowLimit=10
 
-while true;  
-do
-	# If the integer stored in $BatteryCapacity is less than or equal to the integer stored in $LowLimit... 
-	if (( "$BatteryCapacity" <= "$LowLimit" )); 
-then
-		# ...Send command...
-		$(notify-send "Battery Low!")
-
-		# ...and Wait 2 minutes or 120 seconds before issuing another notification.
+	if [ $BatteryCapacity -le $LowLimit ]; then
+		notify-send "Battery low!!!"
 		sleep 120
-	else 
-		# Do nothing.
+	else
 		continue
 	fi
 done 
