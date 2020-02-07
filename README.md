@@ -6,5 +6,5 @@ The option is there to have pre-warning just incase I want to go back and add th
 The notification server I am currently using is Dunst, which works well in my opinion.
 
 ![dunstPreview001](https://i.imgur.com/yBb5BrM.png)
-
-ᴵ ᵏⁿᵒʷ ᵗʰᵃᵗ ᶦᵗ'ˢ ⁿᵒᵗ ᵃᶜᵗᵘᵃˡˡʸ ˡᵒʷ ᵇᵃᵗᵗᵉʳʸ ᶦⁿ ᵗʰᵉ ᵖᶦᶜᵗᵘʳᵉ:⁾
+Note: Picture is for testing purposes only. 
+      Will come back and edit if I get a picture of the battery actually being low.
