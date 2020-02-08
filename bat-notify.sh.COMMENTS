@@ -18,7 +18,7 @@ LowLimit=10
 		# ...and Wait 2 minutes or 120 seconds before issuing another notification.
 		sleep 120
 	else 
-		# Do nothing.
-		continue
+		# Sleep for 2 minutes or 120 seconds before checking battery capacity.
+		sleep 120
 	fi
 done 
