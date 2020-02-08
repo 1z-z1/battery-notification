@@ -11,6 +11,6 @@ LowLimit=10
 		notify-send "Battery low!!!"
 		sleep 120
 	else
-		continue
+		sleep 120
 	fi
 done 
